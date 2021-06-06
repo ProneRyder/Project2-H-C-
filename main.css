@@ -1,0 +1,328 @@
+body{
+    font-size: 16px ;
+    background-color: hsl(270, 20%, 96%);
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+}
+.gradient1{
+    display: inline-block;
+    background-image:linear-gradient(to bottom,hsl(293, 100%, 63%),hsl(264, 100%, 61%)) ;
+    position:relative;
+    bottom: 47px;
+    right: 87px;
+    width: 540px ;
+    height: 700px;
+    border-radius: 0 0 267px 267px;
+}
+.mobile-view{
+    background-color:hsl(0, 0%, 100%);
+    position: relative;
+    display: inline-block;
+    left: 480px;
+    top: 169px;
+    height: 481px;
+    width: 246px;
+    border-radius: 27px;
+}
+.inside-mb{
+    width: 226px;
+    height: 461px;
+    background-color:hsl(270, 20%, 96%) ;
+    border-radius: 18px;
+    position: relative;
+    display: inline-block;
+    left: 10px;
+    top: 10px;
+}
+.navbar{
+    height: 63px;
+    display: inline-block;
+    width: 226px;
+    background-image: linear-gradient(to right,hsl(264, 100%, 61%),hsl(293, 100%, 63%));
+    position: relative;
+    border-radius: 18px 18px 6px 6px;
+}
+.dots{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    bottom: 25px;
+    left: 200px;
+    margin:0 0 2px 0px;
+}
+.notch{
+    width: 109px;
+    height: 17px;
+    position: relative;
+    left: 60px;
+    background-color:hsl(0, 0%, 100%) ;
+    border-radius: 0 0 14px 14px;
+}
+.avatar{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    bottom: 5px;
+    left: 27px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.arrow{
+    border: solid hsl(0, 0%, 100%);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+}
+.left{
+    position: relative;
+    left: 15px;
+    top: 13px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.txt2{
+    font-size: 11px;
+    opacity: 80%;
+    display: inline-block;
+    position: relative;
+    bottom: 19px;
+    left: 30px;
+    color: hsl(0, 0%, 100%);
+}
+.txt3{
+    color: hsl(0, 0%, 100%);
+    opacity: 40%;
+    font-size: 8px;
+    display: inline-block;
+    position: relative;
+    bottom:7px ;
+    right:40px ;
+}
+.dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:hsl(0, 0%, 100%) ;
+    left: 10px;
+}
+.box1{
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 9px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(268, 67%, 92%);
+    height: 20px;
+    width: 125px;
+    border-radius: 8px 8px 8px 3px ;
+    padding: 7px;
+}
+.pic{
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    height:40px ;
+    width: 40px;
+    border-radius: 10px;
+    left: 76px;
+    padding-left: 5px;
+}
+.box2{
+    margin-top: 8px;
+    font-size: 9px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    height: 20px;
+    width: 125px;
+    padding: 6px;
+    border-radius: 10px 10px 2px 10px;
+    position: relative;
+    left:83px;
+    text-align: left;
+}
+.box3{
+    margin-top: 8px;
+    font-size: 9px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    height: 11px;
+    width: 75px;
+    padding: 6px;
+    border-radius: 10px 10px 2px 10px;
+    position: relative;
+    left:133px;
+}
+.box4{
+    font-size: 9px;
+    margin-top: 8px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(268, 67%, 92%);
+    height: 30px;
+    width: 123px;
+    margin-left: 8px;
+    border-radius: 8px 8px 8px 3px ;
+    padding: 7px;
+}
+.box5{
+    margin-top: 8px;
+    font-size: 9px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%),hsl(264, 100%, 61%));
+    height:35px;
+    width: 165px;
+    margin-left: 8px;
+    border-radius: 7px 7px 7px 3px;
+}
+.circle{
+    height: 11px;
+    width: 11px;
+    opacity: 40%;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    position: relative;
+    display: inline-block;
+    left: 12px;
+    top: 10px;
+}
+.tt1{
+    height: 10px;
+    left: 18px;
+    top: 7px;
+    color: white;
+    opacity: 60%;
+    position: relative;
+    display: inline-block;
+}
+.tt2{
+    height: 10px;
+    left: 18px;
+    top: 7px;
+    color: white;
+    opacity: 60%;
+    position: relative;
+    display: inline-block;
+}
+.cost1{
+    font-size: 12px;
+    opacity: 90%;
+    left: 50px;
+    top: 8px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+.cost2{
+    font-size: 12px;
+    opacity: 90%;
+    left: 67px;
+    top: 8px;
+    color: white;
+    position: relative;
+    display: inline-block;
+}
+.box6{
+    margin-top: 8px;
+    background-color: white;
+    height: 34px;
+    width: 210px;
+    margin-left: 8px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+.blackdot{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 87%;
+    position: relative;
+    bottom: 16px;
+    left: 176px;
+}
+.arrow2{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.lasta{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: relative;
+    left: 8px;
+    top: 3px;
+}
+.attribution{
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 230px;
+}
+.gradient2{
+    display: inline-block;
+    position:relative;
+    bottom: 140px;
+    left: 305px;
+    width: 610px ;
+    height: 645px;
+    background-color: hsl(279, 52%, 94%);
+    border-radius: 295px 285px 0 0;
+}
+.tbox{
+    position: relative;
+    display: inline-block;
+    right: 410px;
+    width: 485px;
+    top: 160px;
+}
+.thed{
+    opacity: 85%;
+    font-size: 35px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+.ttext{
+    opacity: 60%;
+    padding: 2px;
+    word-spacing: 1px;
+    line-height: 1.75;
+    letter-spacing: 0.5px;
+}
+.TAM{
+    opacity: 30%;
+    font-size: 10px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 7px;
+}
+@media screen and (max-width:375px){
+    .gradient1{
+        bottom: 300px;
+        right: 320px;
+    }
+    .gradient2{
+        position: relative;
+        left:163px;
+        bottom: 400px;
+        z-index: -1;
+    }
+    .mobile-view{
+        background-color:hsl(0, 0%, 100%);
+        position: relative;
+        display: inline-block;
+        top: 330px;
+        left: 387px;
+    }
+    .tbox{
+        width: 333px;
+        right: 135px;
+        top: 203px;
+    }
+}
